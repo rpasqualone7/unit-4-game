@@ -1,0 +1,82 @@
+body {
+    background-image: url("../images/SoulCave01-1920x1080-539c0a0852dd62ee1f0c2811f57cb91e.png");
+    font-size: 20pt;
+    font-family: 'Source Sans Pro', sans-serif  
+
+}
+.crystalImage{
+    height: 200px;
+    width: 200px;
+}
+
+h1{
+    background-color: aqua;
+    font-size: 30pt;
+    font-weight: bold;
+    opacity: 0.75;
+    padding: 10px;
+    margin: 10px;
+    width : 40%
+}
+
+div{
+    background-color: aqua;
+    opacity: 0.75;
+    padding: 10px;
+    margin: 10px;
+}
+
+#instructions{
+    width: 60%;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+#randomNumText{
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+#winsText {
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+    
+   
+}
+
+#lossesText{
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+    
+  
+
+
+}
+
+#crystals{
+    width: 31%;
+    padding: 10px;
+    margin: 10px;
+    
+    
+
+}
+
+#scoreMessageText{
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+#totalText{
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+
+}

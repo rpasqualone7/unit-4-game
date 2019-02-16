@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CrystalsCollector</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets\css\reset.css">
+    <link rel="stylesheet" type="text/css" href="assets\css\style.css">
+    
+</head>
+<body>
+    <h1> CrystalsCollector!</h1>
+
+    <br>
+
+    <div id="instructions">
+        
+        <p>You will be given a random number at the start of the game.</p>
+
+        <br> 
+
+        <p>There are four crystals below. By clicking one, you will add a specific amount of points to your score.</p>
+
+        <br> 
+        
+        <p>You will win the game by matching your total score to a random number, you lose the game if your total score goes above the random number.</p>
+
+        <br> 
+        
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+
+        <br> 
+        
+        <p>Each time the game starts, the game will change the value of each crystal.</p>
+
+    </div>
+
+    <br>
+  
+    
+<div id="randomNumText">_</div>
+
+<br>
+
+<div id="winsText">Wins:</div>
+
+<br>
+
+<div id="lossesText">Losses:</div>
+
+<br>
+
+<div id="crystals">
+
+    <img src="assets/images/labradorite-stone.png" class="crystalImage" id="labradorite" alt="labradorite">
+    <img src="assets/images/Amethyst-Specimen-3-1.jpg" class="crystalImage" id="amethyst" alt="amethyst">
+    <img src="assets/images/ruby-honored_member-shutterstock4c.jpg" class="crystalImage" id="ruby" alt="ruby">
+    <img src="assets/images/sapphire_2048x.png" class="crystalImage" id="sapphire" alt="sapphire">
+</div>
+
+<br>
+
+<div id="scoreMessageText">Your total score is: </div>
+
+<br>
+
+<div id="totalText">0</div>
+
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script> 
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
